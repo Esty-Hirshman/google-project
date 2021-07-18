@@ -15,7 +15,7 @@ And onwards 1.
 Monday 8, third note 6, fourth note 4
 
 The program works in two stages:
-1.First stage (offline) is a stage in which the system reads the text files (from a predetermined place)
+1. First stage (offline) is a stage in which the system reads the text files (from a predetermined place)
 And prepares them for the service phase (serving)
 2. Second stage (online) is a stage where the system waits for input.
 * As soon as the user types characters and presses Enter the system displays the five
@@ -23,4 +23,10 @@ The best completions (in case of a tie on the system sorts the strings with the 
 * After viewing the completions, the system allows the user to continue typing from where he left off.
 * If the user types "#" it means that the user has finished typing for this sentence and returns to the initial state
 If no results are found a "not found" message will be displayed
+
+### run the program 
+download theproject andinterminal type:
+```
+main.py
+```
 
