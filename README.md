@@ -1,5 +1,5 @@
 # google-project
-Automatic sentence completion
+### Automatic sentence completion
 
 In order to make the user experience of the Google search engine better,
 the development team decided to allow completion
@@ -18,9 +18,9 @@ The program works in two stages:
 1.First stage (offline) is a stage in which the system reads the text files (from a predetermined place)
 And prepares them for the service phase (serving)
 2. Second stage (online) is a stage where the system waits for input.
-■ As soon as the user types characters and presses Enter the system displays the five
+* As soon as the user types characters and presses Enter the system displays the five
 The best completions (in case of a tie on the system sorts the strings with the same score by alphabet).
-■ After viewing the completions, the system allows the user to continue typing from where he left off.
-■ If the user types "#" it means that the user has finished typing for this sentence and returns to the initial state
+* After viewing the completions, the system allows the user to continue typing from where he left off.
+* If the user types "#" it means that the user has finished typing for this sentence and returns to the initial state
 If no results are found a "not found" message will be displayed
 
