@@ -25,7 +25,7 @@ The best completions (in case of a tie on the system sorts the strings with the 
 If no results are found a "not found" message will be displayed
 
 ### run the program 
-download theproject andinterminal type:
+download theproject and in terminal type:
 ```
 main.py
 ```
