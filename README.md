@@ -30,3 +30,5 @@ download theproject and in terminal type:
 main.py
 ```
 
+### Watch the program run
+https://youtu.be/uQibOftVv5k
