@@ -7,6 +7,8 @@ Of sentences from articles, documentation and information files on various techn
 
 The purpose of the completion action is to make it easier for the user to find the most appropriate sentence.
 
+All information is stored in the suffix tree in order to retrieve it when searching in the fastest time.
+
 In the case of several matches to the typed text, we will set a score (score) for each match:
 1. The base score is double the number of characters typed and a match was found for them.
 2. Replacement of a lowering character according to the following details: first character 5 points, second character 4, third character 3, fourth character 2, fifth character
